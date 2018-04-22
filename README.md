@@ -1,5 +1,5 @@
 # Test gh pages
-test gh pages
+Deploy from gulp-gh-pages plugin
 
 ## System Preparation
 
