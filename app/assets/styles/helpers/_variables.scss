@@ -1,0 +1,48 @@
+// Path image
+$path_image: '../images/';
+
+
+// Colors
+$white:                 #fff;
+$black:                 #000;
+$gray:                  #464a4c;
+
+$brand_primary:         #2b303b;
+$brand_secondary:       #767676;
+$brand_accent:          #cc4b37;
+
+// Uncomment, if needed
+// $brand_info:            #5bc0de;
+// $brand_success:         #5cb85c;
+// $brand_warning:         #ffae00;
+// $brand_danger:          #cc4b37;
+
+
+// Page
+$page_background:         $white;
+$page_color:              $black;
+$page_font_primary:       -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif;
+$page_font_secondary:     -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif;
+$page_font-size:          16px;
+$page_line-height:        1.6;
+$page_font-weight:        400;
+$page_font-antialiased:   false;
+
+
+// Links
+$link_color:              #1976d2;
+$link_decoration:         none;
+$link_hover-color:        #d32f2f;
+$link_hover-decoration:   none;
+
+
+// Breakpoints
+$breakpoint_phone:    576px;
+$breakpoint_mobile:   768px;
+$breakpoint_tablet:   992px;
+$breakpoint_desktop:  1200px;
+
+
+// Grid
+$grid_container:  960px;
+$grid_gutter:     20px;

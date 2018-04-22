@@ -1,0 +1,45 @@
+// Color placeholders
+@mixin placeholder($color: #000) {
+  &::-webkit-input-placeholder {
+    color: $color;
+  }
+  &::-moz-placeholder {
+    color: $color;
+  }
+  &:-ms-input-placeholder {
+    color: $color;
+  }
+  &:-moz-placeholder {
+    color: $color;
+  }
+}
+
+
+// Media
+@mixin media($name) {
+  @if ($name == phone) {
+    @media (max-width: $breakpoint_phone) {
+      @content;
+    }
+  }
+  @if ($name == mobile) {
+    @media (max-width: $breakpoint_mobile) {
+      @content;
+    }
+  }
+  @if ($name == tablet) {
+    @media (max-width: $breakpoint_tablet) {
+      @content;
+    }
+  }
+  @if ($name == desktop) {
+    @media (max-width: $breakpoint_desktop) {
+      @content;
+    }
+  }
+  @if ($name == wide) {
+    @media (min-width: $breakpoint_wide) {
+      @content;
+    }
+  }
+}
